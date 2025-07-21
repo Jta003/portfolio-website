@@ -141,13 +141,13 @@ body {
 
 .btn-secondary {
     background: transparent;
-    color: white;
+    color: rgb(0, 0, 0);
     border: 2px solid white;
 }
 
 .btn-secondary:hover {
-    background: white;
-    color: #333;
+    background: rgb(50, 146, 255);
+    color: #000000;
 }
 
 .hero-image {
