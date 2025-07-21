@@ -493,3 +493,94 @@ body {
         flex-direction: column;
     }
 }
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+/* เพิ่ม Mode Dark Theme */
+body.dark-theme {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+/* ปรับเฉพาะ Navbar ให้ไม่โดนธีมมืด */
+body.dark-theme .navbar {
+    background: rgba(255, 255, 255, 0.95); /* สีพื้นเหมือนเดิม */
+}
+
+body.dark-theme .nav-logo a,
+body.dark-theme .nav-link {
+    color: #2c3e50; /* สีตัวอักษรเดิม */
+}
+
+
+body.dark-theme .nav-link:hover {
+    color: #f39c12;
+}
+
+body.dark-theme .bar {
+    background: #f0f0f0;
+}
+
+body.dark-theme .hero {
+    background: linear-gradient(135deg, #222 0%, #444 100%);
+    color: #eee;
+}
+
+body.dark-theme .btn-primary {
+    background: #f39c12;
+    color: #121212;
+}
+
+body.dark-theme .btn-primary:hover {
+    background: #d98e00;
+}
+
+body.dark-theme .btn-secondary {
+    border-color: #f0f0f0;
+    color: #f0f0f0;
+}
+
+body.dark-theme .btn-secondary:hover {
+    background: #f39c12;
+    color: #121212;
+}
+
+body.dark-theme .about {
+    background: #1a1a1a;
+    color: #ccc;
+}
+
+body.dark-theme .skills .skill-item {
+    background: #222;
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
+}
+
+body.dark-theme .projects {
+    background: #1a1a1a;
+}
+
+body.dark-theme .project-card {
+    background: #222;
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
+}
+
+body.dark-theme .contact-form {
+    background: #222;
+}
+
+body.dark-theme .footer {
+    background: #0d0d0d;
+    color: #bbb;
+}
+
+body.dark-theme .social-links a {
+    background: #f39c12;
+    color: #121212;
+}
+
+body.dark-theme .social-links a:hover {
+    background: #d98e00;
+}
+

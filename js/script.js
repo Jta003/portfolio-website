@@ -58,3 +58,12 @@ contactForm.addEventListener('submit', (e) => {
         alert('Please fill in all fields.');
     }
 });
+// เพิ่มฟังชั่นการกด Dark Mode
+document.addEventListener('DOMContentLoaded', () => {
+    const btn = document.getElementById('themeToggleBtn'); // <== ชื่อ id ที่ถูกต้อง
+    btn.addEventListener('click', () => {
+        document.body.classList.toggle('dark-theme');
+        // เปลี่ยนไอคอนตามธีม
+        btn.textContent = document.body.classList.contains('dark-theme') ? '🌙' : '🌞';
+    });
+});
